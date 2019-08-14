@@ -1,0 +1,11 @@
+<script id="tmpl-nf-field-filetrip" type="text/template">
+
+
+
+    <div id="multi-{{{data.filtrip_shortcode}}}-{{{data.formID}}}" closify-idx="{{{data.formID}}}" closify-id="{{{data.filtrip_shortcode}}}"></div>
+
+    <input id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" class="{{{ data.renderClasses() }}} ninja_filetrip_{{{data.formID}}} nf-element"
+           type="hidden" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}} {{{ data.maybeDisabled() }}} {{{
+           data.maybeDisableAutocomplete() }}} {{{ data.maybeInputLimit() }}}>
+
+</script>
